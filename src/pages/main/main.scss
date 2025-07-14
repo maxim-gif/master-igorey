@@ -1,0 +1,13 @@
+.homepage-wrapper {
+    height: 100vh;
+     background-image: url('https://avatars.mds.yandex.net/i?id=6fbb7d5725cacdb4c7c353dfbe5372fc_l-4860138-images-thumbs&n=13'); /* Путь к вашему изображению */
+    background-size: cover; /* Растягивает фон на всю область */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Убирает повторы */
+    background-attachment: fixed;
+}
+.cards-wrapper{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
