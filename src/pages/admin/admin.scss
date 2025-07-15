@@ -1,0 +1,63 @@
+.admin-wrapper{
+    display: grid;
+    height: 100vh;
+     background-image: url(''); /* Путь к вашему изображению */
+    background-size: cover; /* Растягивает фон на всю область */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Убирает повторы */
+    background-attachment: fixed;
+    grid-template-columns: 15% 1fr 20%;
+    div {
+        
+        padding: 20px;
+    }
+}
+
+.left-sidebar{
+background: rgb(194, 194, 194);
+  background-image: url('https://static.vecteezy.com/system/resources/previews/002/062/363/large_2x/abstract-background-with-technology-circuit-board-texture-electronic-motherboard-illustration-communication-and-engineering-concept-illustration-vector.jpg'); /* Путь к вашему изображению */
+    background-size: cover; /* Растягивает фон на всю область */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Убирает повторы */
+    background-attachment: fixed;
+    border-right: 1px solid #848485;
+    box-shadow: 4px 2px 6px #848485;
+}
+
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    * {
+        height: 40px;
+        border-radius: 5px 5px 0 0;
+        border: none;
+        background: linear-gradient(180deg,rgb(245, 245, 245) 1%, rgb(189, 189, 189) 100%);
+        border-bottom: 2px solid #3f3f3f;
+    }
+    input {
+        outline: none;
+        padding-left: 10px;
+        background: linear-gradient(180deg,rgb(245, 245, 245) 1%, rgb(189, 189, 189) 100%);
+        border-bottom: 2px solid #3f3f3f;
+        &::placeholder {
+            color: rgb(134, 134, 134);
+        }
+        &:hover{
+            background: white;
+            border: 1px solid #3f3f3f;
+            box-shadow: 1px 1px 4px black inset;
+        }
+    }
+    button {
+        border: 1px solid #3f3f3f;
+        border-radius: 5px;
+        &:hover{
+            box-shadow: 1px 1px 4px black;
+        }
+        &:active{
+            background: white;
+            box-shadow: 1px 1px 4px black inset;
+        }
+    }
+}
